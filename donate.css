@@ -1,12 +1,13 @@
-body {
-  font-family: Arial, sans-serif;
-  background-color: #f2f2f2;
-  margin: 0;
-  padding: 20px;
-}
 @font-face {
   font-family: 'southbank';
   src: url('./fonts/SouthbankLT.ttf') format('truetype');
+}
+
+body {
+  font-family: "southbank";
+  background-color: #f2f2f2;
+  margin: 0;
+  padding: 0px;
 }
 nav {
   background-color: blanchedalmond;
