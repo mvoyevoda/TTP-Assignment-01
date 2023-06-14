@@ -3,24 +3,34 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="donate.css">
     <title>Donate</title>
 </head>
 <body>
-    <h1>Donate today</h1>
+    <nav>
+        New York Hunger Organization
+        <div class="links">
+            <a href="./index.html">About</a>
+            <a href="./donate.html">Donate</a>
+            <a href="./signup.html">Sign Up</a>
+        </div>
+    </nav>
+
     <form action="">
-        <input type="radio" id="one_time">
+        <h1>Donate today</h1>
+        <input type="radio" id="one_time" name="freq">
         <label for="one_time">One time</label>
-        <input type="radio" id="monthly">
+        <input type="radio" id="monthly" name="freq">
         <label for="one_time">Monthly</label>
         <br>
-        <label for="Amount">Please choose the amount:</label>
-        <br>
-        <input type="radio" id="35">
+        <label for="Amount">Please choose the amount:</label> 
+        <input type="radio" id="35" name="amountToDon">
         <label for="35">$35</label>
-        <input type="radio" id="50">
+        <input type="radio" id="50" name="amountToDon">
         <label for="50">$50</label>
-        <input type="radio" id="100">
+        <input type="radio" id="100" name="amountToDon">
         <label for="100">$100</label>
+        <input type="radio" id="other" name="amountToDon">
         <input type="text" id="other" placeholder="other" size="2">
         <h2 class="contact-info">Contact information</h2>
         <input type="text" id="firstName" placeholder="First Name*" size="15" required>
@@ -41,8 +51,8 @@
             <option value="KY">KY</option>
             <option value="AL">AL</option>
           </select>
+          <br>
         <input type="text" id="Zip" placeholder="Zip*" size="8" required>
-        <br>
         <select name="Country" id="lang">
             <option value="Country">Country</option>
             <option value="United States">United States</option>
@@ -58,6 +68,7 @@
           <br>
           <input type="tel" id="cardNum" placeholder="Credit card number*" size="15" required>
           <input type="tel" id="CVV" placeholder="CVV*" size="2" required>
+          <br>
           <select name="Month" id="Month">
             <option value="MM">MM</option>
             <option value="01">01</option>
@@ -86,9 +97,7 @@
             <option value="2030">2030</option>
           </select>
           <br>
-          <input type="submit">    
-
-
+          <input type="submit" value="Donate"> 
 
 
     </form>
