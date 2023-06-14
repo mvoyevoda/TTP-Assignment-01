@@ -58,17 +58,8 @@ h3 {
     text-align: center;
 }
 
-.fname {
+.labl{
     box-sizing: border-box;
     margin: auto;
-}
-
-.lname {
-    box-sizing: border-box;
-    margin: auto
-}
-
-.email {
-    /* box-sizing: border-box; */
-    margin: auto;
+    margin-top: 5px;
 }
