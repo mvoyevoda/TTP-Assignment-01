@@ -59,6 +59,7 @@ nav a:hover {
 
 .mission {
     display: flex;
+    flex-direction: column;
     background-color: brown;
     padding: 100px;
 }
@@ -74,8 +75,27 @@ nav a:hover {
     display: flex; /
 }
 
+.action-btns {
+    display: flex;
+    justify-content: center;
+}
+
 .action-btn {
     padding: 20px;
-    box-shadow: 5px 10px;
+    box-shadow: 5px 10px yellow;
     border: 2px;
+    background-color: darkgreen;
+    color: azure;
+    font-family: "southbank";
+    font-size: 100px;
+    margin: 40px;
+    text-decoration: none;
+    text-align: center;
+    /* padding-top: 40px; */
+    padding: 40px;
+    padding-bottom: 20px;
+}
+
+.action-btn:hover {
+    color: black;
 }
